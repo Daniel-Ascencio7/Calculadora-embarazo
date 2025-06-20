@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: linear-gradient(to right, #fddde6, #d4f3f3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  transition: 0.4s;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  text-align: center;
+}
+
+input, button {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background: #ff4081;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.resultado {
+  margin-top: 1.5rem;
+}
+
+.oculto {
+  display: none;
+}
+
+body.dark {
+  background: #222;
+  color: #fff;
+}
+
+body.dark .container {
+  background: #333;
+}
+
+.redes button {
+  background: #1da1f2;
+  margin-top: 10px;
+}
